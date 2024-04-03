@@ -47,6 +47,7 @@ export default function InstructionsComponent() {
 					</div>
 				</a>
 			</div>
+			
 			<div className={styles.footer}>
 				<a href="https://alchemy.com/?a=create-web3-dapp" target={"_blank"}>
 					<img
