@@ -6,9 +6,7 @@ export default function InstructionsComponent() {
 		<div className={styles.container}>
 			<header className={styles.header_container}>
 				<h1>
-					create<span>-web3-dapp</span>
-					create<span>-web3-dapp</span>
-					create<span>-web3-dapp</span>
+					Mahmoud Amr Hassan<span>Full Stack Web Developer</span>
 				</h1>
 				<p>
 					Get started by editing this page in{" "}
