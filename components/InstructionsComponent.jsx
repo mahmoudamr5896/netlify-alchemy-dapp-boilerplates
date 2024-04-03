@@ -6,7 +6,7 @@ export default function InstructionsComponent() {
 		<div className={styles.container}>
 			<header className={styles.header_container}>
 				<h1>
-					Mahmoud Amr Hassan<span>Full Stack Web Developer</span>
+					Mahmoud Amr Hassan<br></br><span>Full Stack Web Developer</span>
 				</h1>
 				<p>
 					Get started by editing this page in{" "}
@@ -47,7 +47,7 @@ export default function InstructionsComponent() {
 					</div>
 				</a>
 			</div>
-			
+
 			<div className={styles.footer}>
 				<a href="https://alchemy.com/?a=create-web3-dapp" target={"_blank"}>
 					<img
