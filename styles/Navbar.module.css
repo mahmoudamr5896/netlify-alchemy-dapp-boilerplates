@@ -8,10 +8,51 @@
 	padding: 2rem 4rem 0.8rem 4rem;
 	gap: 2rem;
 	margin-bottom: 4rem;
+	
 }
+/*  */
 
+/* 
+ */
 
 .alchemy_logo{
 	width: 6rem;
 	cursor: pointer;
 }
+.navLink{
+	color: azure;
+	margin-left: 0%;
+}
+.div3 {
+	grid-area: 1 / 5 / 2 / 6;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  }
+  
+  .div3 a {
+	font-size: 2rem;
+	line-height: 32px;
+	margin: 10px;
+	color: rgba(255, 255, 255, 0.75);
+	transition: 0.4s ease;
+  }
+  
+  .div3 a:hover {
+	color: #fff;
+	opacity: 1;
+	cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+	.div3 {
+	  align-items: center;
+	  grid-area: 1 / 4 / 2 / 6;
+	}
+  
+	.div3 a {
+	  padding: 0.5rem;
+	  font-size: 1.7rem;
+	}
+  }
+  

@@ -88,9 +88,143 @@ line-height: 28px;
 	flex-direction: column;
 	align-items: center;
 	gap:1rem;
+	margin-bottom: 30px;
 }
 .icons_container{
 	display: flex;
 	gap: 2rem;
 	margin-bottom: .5rem;
 }
+.section{
+	display: flex;
+	border: #4E4E4E;
+	background-color: #4E4E4E;
+	width: 60%;
+	height: 600px;
+	align-items: center;
+}
+.projectBlock{
+	width: 10%;
+	border: 5px;
+	display: inline-block;
+	margin-right: 100px;
+	padding: auto;
+	padding: 3px;
+	
+}
+/* card */
+.card {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	overflow: hidden;
+	width: 300px;
+	margin: 10px;
+	box-shadow:white;
+	padding: 10px;
+  }
+  
+  .cardImage {
+	width: 300px;
+	height: 200px;
+  }
+  
+  .cardContent {
+	padding: 20px;
+  }
+  
+  .cardTitle {
+	margin: 0 0 10px;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  .cardText {
+	margin: 0;
+	font-size: 1rem;
+  }
+  .tech{
+	/* color: #fb745c; */
+	margin: 10px;
+	margin-top: 15px;
+	/* background-color: #ccc; */
+	border: 5px;
+  }
+  .Info{
+    background-color: #D73719;
+	border-radius: 10%;
+	margin: 10px;
+	padding: 5px;
+  }
+  /*  */
+  .cardSection {
+	padding: 20px;
+	width: 80%;
+  }
+  
+  .sectionTitle {
+	text-align: center;
+  }
+  
+  .cardContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+  
+  @media (max-width: 768px) {
+	.cardContainer {
+	  flex-direction: column;
+	  align-items: center;
+	}
+  }
+  
+/* Skills */
+.section-divider {
+	width: 64px;
+	height: 6px;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 0 auto 2rem auto;
+  }
+  
+  .section-divider.color-alt {
+	background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
+  }
+  
+  .section-title {
+	text-align: center;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+  }
+  
+  .section-text {
+	text-align: center;
+	margin-bottom: 2rem;
+	color: rgba(255, 255, 255, 0.75);
+  }
+  /*  */
+  .skills-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; /* Align items in the center */
+  }
+  
+  .skill-item {
+	width: calc(33.33% - 20px); /* Adjust based on the number of skills you want to display in one row */
+	margin: 10px; /* Adjust margin between skills */
+	text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+	.skill-item {
+	  width: calc(50% - 20px); /* Adjust for smaller screens to display two skills in one row */
+	}
+  }
+  
+  @media screen and (max-width: 480px) {
+	.skill-item {
+	  width: calc(100% - 20px); /* Adjust for even smaller screens to display one skill per row */
+	}
+  }
+  
