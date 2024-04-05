@@ -15,10 +15,11 @@ export default function InstructionsComponent() {
 
 	return (
 		<div className={styles.container}>
-		<header className={styles.header_container}>
+		<header className={styles.cardSection}>
 				<div className={styles.content} style={{float:'left'}}>
 				<h1>
-				<span>Hey There</span><br />
+				<span style={{background: 'linear-gradient(140deg, rgba(54,190,255,1) 0%, rgba(115,63,241,1) 100%)', backgroundClip: 'text', color: 'transparent'}}>Hey There</span>
+				<br />
 				<br />
 				{/* <span>Full Stack Web Developer</span> */}
 				</h1>
