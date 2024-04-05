@@ -14,12 +14,12 @@ export default function Navbar() {
             <a href="/about" className={styles.navLink}>
                 About Me
             </a>
-            <a href="/resume" className={styles.navLink}>
+            {/* <a href="/resume" className={styles.navLink}>
                 Projects
             </a>
             <a href="/resume" className={styles.navLink}>
                 My Resume
-            </a>
+            </a> */}
 			<div className="div3">
     <a style={{color:'white',margin: '10px'}} href="https://github.com/mahmoudamr5896" target="_blank"><AiFillGithub size="3rem" /></a>
     <a style={{color:'white',margin: '10px'}} href="https://www.linkedin.com/in/lordarcadius/"target="_blank"><AiFillLinkedin size="3rem" /></a>
