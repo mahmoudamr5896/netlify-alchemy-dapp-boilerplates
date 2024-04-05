@@ -2,21 +2,15 @@ import styles from "../styles/InstructionsComponent.module.css";
 // import image from '../images';
 import Router, { useRouter } from "next/router";
 // import { Row, Col } from 'react-bootstrap'; // Import Row and Col components from Bootstrap
-import { DiAndroid, DiTerminal, DiJava, DiHtml5 } from "react-icons/di";
-import { SiFirebase, SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws } from "react-icons/si";
+import {SiPostgresql,SiAngular,SiNodeDotJs, SiFirebase, SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws ,SiCplusplus, SiC, SiJava  } from "react-icons/si";
+// import { , SiNodeDotJs } from "react-icons/si";
+import { FaReact, FaPython, FaDatabase, FaWordpress, FaDocker,FaJava, FaCSharp } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
+import { DiFlask } from "react-icons/di";
+import { FaHtml5, FaPhp, FaJs, FaCode } from "react-icons/fa"; // Import icons
 
 export default function InstructionsComponent() {
 	const router = useRouter();
-
-
-
-
-
-
-
-
-
-
 
 
 	return (
@@ -25,17 +19,13 @@ export default function InstructionsComponent() {
 				<div className={styles.content} style={{float:'left'}}>
 				<h1>
 				<span>Hey There</span><br />
-				I'm Mahmoud Amr Hassan<br />				<span>Full Stack Web Developer</span>
-
+				<br />
+				{/* <span>Full Stack Web Developer</span> */}
 				</h1>
-				<h6 style={{width:'800px',fontSize:'30px' }}>
-				Software engineer graduated from Information Technology Institute (ITI),
-				Certified by Google as a Data Analyst, Proficient in JavaScript, ES6,
-					jQuery, React, Python, Django, Flask, SQL, PostgreSQL, MySQL, MongoDB,
-					HTML5, CSS3, Bootstrap, Git, GitHub, Bash scripting, Apache, Odoo, Docker, 
-					C, C++, PHP, WordPress.
-				</h6 >
-				<button style={{ width: '100px', height: '40px',marginLeft:'400px' }}
+				<p className="responsive-paragraph">
+    I'm Mahmoud Amr Hassan,software engineer graduated from the Information Technology Institute (ITI), certified by Google as a Data Analyst. I'm proficient in JavaScript, ES6, jQuery, React, Python, Django, Flask, SQL, PostgreSQL, MySQL, MongoDB, HTML5, CSS3, Bootstrap, Git, GitHub, Bash scripting, Apache, Odoo, Docker, C, C++, PHP, and WordPress.
+     </p><br></br>
+				<button style={{ width: '100px', height: '40px'}}
 				onClick={(e) => {
 					e.preventDefault();
 					window.location.href = '/files/mahmoudamrhassan_resume.pdf';
@@ -394,42 +384,176 @@ export default function InstructionsComponent() {
               </div>
 			  </section>
 			{/* Skills */}
-			  <section id="skills">
-					<div class="section-divider"></div>
+			  <section id="skills" className={styles.cardSection}>
 					<h1 class="section-title">Skills</h1>
-					<p class="section-text">
-						I have extensive experience working with a variety of technologies as a developer. I've developed and maintained multiple projects using these technologies, and I'm always eager to learn more.
-					</p>
-
-						<div  style={{width:'100%'}} class="skills-list">
-							<span style={{width:'200px'}} class="skill-item">
-							<div class="skill-icon"><img src="https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp" alt="React.js" width="70" /></div>
-							<div class="skill-details">
-								<h4 class="skill-title">React.js</h4>
-								<div class="skill-description">Android Apps, ROMs, & Kernels</div>
-							</div>
-							</span>
-							<span style={{width:'200px'}} class="skill-item">
-							<div class="skill-icon"><img src="https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png" alt="React.js" width="70" /></div>
-							<div class="skill-details">
-								<h4 class="skill-title">React.js</h4>
-								<div class="skill-description">Web Development</div>
-							</div>
-							</span>
+						<p className="responsive-paragraph">
+							I have extensive experience working with a variety of technologies as a developer. I've developed and maintained multiple projects using these technologies, and I'm always eager to learn more.
+						</p>
+<div className={styles.skillsContainer}>
+    				<div className={styles.skillItem}>
+        <FaHtml5 className={styles.icon} />
+        <div className={styles.skill}>
+            <h4>HTML</h4>
+            {/* <div className={styles.progress} style={{ width: '80%' }}></div> */}
+        </div>
+					</div>
+					<div className={styles.skillItem}>
+						<FaPhp className={styles.icon} />
+						<div className={styles.skill}>
+							<h4>PHP</h4>
+							{/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
 						</div>
-                       <div class="section-divider color-alt"></div>
-              </section>
-
-
+					</div>
+					<div className={styles.skillItem}>
+						<FaJs className={styles.icon} />
+						<div className={styles.skill}>
+							<h4>JavaScript</h4>
+							{/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
+						</div>
+					</div>
+					<div className={styles.skillItem}>
+						<FaCode className={styles.icon} />
+						<div className={styles.skill}>
+							<h4>BashScript</h4>
+							{/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
+						</div>
+					</div>
+					<div className={styles.skillItem}>
+        <SiCplusplus className={styles.icon} />
+        <div className={styles.skill}>
+            <h4>C++</h4>
+            {/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
+        </div>
+    </div>
+    <div className={styles.skillItem}>
+        <SiC className={styles.icon} />
+        <div className={styles.skill}>
+            <h4>Programming</h4>
+            {/* <div className={styles.progress} style={{ width: '80%' }}></div> */}
+        </div>
+    </div>
+    <div className={styles.skillItem}>
+        <FaJava className={styles.icon} />
+        <div className={styles.skill}>
+            <h4>Java</h4>
+            {/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
+        </div>
+    </div>
+    {/* <div className={styles.skillItem}>
+        <FaCSharp className={styles.icon} />
+        <div className={styles.skill}>
+            <p>C#</p>
+            <div className={styles.progress} style={{ width: '60%' }}></div>
+        </div>
+    </div> */}
+				</div>
 
 			
+<div className={styles.iconContainer}>
+    <div className={styles.iconItem}>
+        <FaReact className={styles.largeIcon} />
+        <span>React</span>
+		<p>React Devoloper</p>
+    </div>
+    <div className={styles.iconItem}>
+        <SiDjango className={styles.largeIcon} />
+        <span>Django</span>
+		<p>React Devoloper</p>
+
+    </div>
+    <div className={styles.iconItem}>
+        <FaPython className={styles.largeIcon} />
+        <span>Python</span>
+		<p>React Devoloper</p>
+
+    </div>
+    <div className={styles.iconItem}>
+        <SiPostgresql className={styles.largeIcon} />
+        <span>PostgreSQL</span>
+		<p>React Devoloper</p>
+
+    </div>
+ 
+    <div className={styles.iconItem}>
+        <FaWordpress className={styles.largeIcon} />
+        <span>WordPress</span>
+		<p>React Devoloper</p>
+
+    </div>
+
+    <div className={styles.iconItem}>
+        <FaDocker className={styles.largeIcon} />
+        <span>Docker</span>
+		<p>React Devoloper</p>
+
+    </div>
+    <div className={styles.iconItem}>
+        <SiAngular className={styles.largeIcon} />
+        <span>Angular</span>
+		<p>React Devoloper</p>
+
+    </div>
+
+</div> 
+   {/* <div className={styles.iconItem}>
+        <DiNextjs className={styles.largeIcon} />
+        <span>Next.js</span>
+    </div>
+    <div className={styles.iconItem}>
+        <SiNodeDotJs className={styles.largeIcon} />
+        <span>Node.js</span>
+    </div> */}
+	   {/* <div className={styles.iconItem}>
+        <DiFlask className={styles.largeIcon} />
+        <span>Flask</span>
+    </div> */}
+     {/*<div className={styles.iconItem}>
+        <DiOdoo className={styles.largeIcon} />
+        <span>Odoo</span>
+    </div> */}
+
+{/* <p>WordPress</p>
+<div className={styles.container}>
+	<FontAwesomeIcon icon={faWordpress} className={styles.icon} />
+	<div className={styles.skill} style={{ width: '60%' }}>60%</div>
+</div>
+
+<p>Python (Django)</p>
+<div className={styles.container}>
+	<FontAwesomeIcon icon={faPython} className={styles.icon} />
+	<div className={styles.skill} style={{ width: '70%' }}>70%</div>
+</div> */}
+
+              </section>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 
 			<div className={styles.footer}>
-				
+
+				<a href="/">Mahmoud Amr Hassan</a>
 			</div>
 		</div>
 	);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {/* <a href="https://alchemy.com/?a=create-web3-dapp" target={"_blank"}>
 					<img
 						id="badge-button"

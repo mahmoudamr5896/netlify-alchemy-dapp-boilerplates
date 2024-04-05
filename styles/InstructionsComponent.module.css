@@ -250,14 +250,210 @@ line-height: 28px;
   }
   
   /* Add media query for responsiveness */
-  @media (max-width: 768px) {
-	.header_container {
-	  flex-direction: column;
-	  align-items: center;
-	}
-	.image_container {
-	  flex-basis: 100%;
-	  /* Add additional styles if necessary */
-	}
-  }
-  
+/* Small screens (phones) */
+@media (max-width: 576px) {
+    .header_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image_container {
+        flex-basis: 100%;
+        /* Add additional styles if necessary */
+    }
+    .Data {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .header_container {
+        /* Adjust layout styles for medium screens */
+		flex-basis: 100%;
+
+    }
+    .image_container {
+        /* Adjust layout styles for medium screens */
+       flex-basis: 100%;
+
+    }
+    .Data {
+        /* Adjust layout styles for medium screens */
+	        flex-basis: 100%;
+
+    }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 993px) {
+    .header_container {
+		flex-basis: 100%;
+
+        /* Adjust layout styles for large screens */
+    }
+    .image_container {
+		flex-basis: 100%;
+
+        /* Adjust layout styles for large screens */
+    }
+    .Data {
+		flex-basis: 100%;
+
+        /* Adjust layout styles for large screens */
+    }
+}
+/* Small screens (phones) */
+@media (max-width: 576px) {
+    .responsive-paragraph {
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 2rem;
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .responsive-paragraph {
+        font-size: 20px;
+        line-height: 32px;
+        padding-bottom: 3rem;
+    }
+}
+
+/* / */
+.skill-bar {
+    height: 20px; /* Adjust the height of the bars */
+    background-color: #007bff; /* Set the color of the bars */
+}
+/* Small screens (phones) */
+@media (max-width: 576px) {
+    .skills-list {
+        width: 100%;
+		flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-item {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .skill-details {
+        width: 100%;
+    }
+
+    .skill-title {
+        font-size: 18px;
+    }
+
+    .skill-description {
+        font-size: 14px;
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .skills-list {
+        width: 80%;
+    }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 993px) {
+    .skills-list {
+        width: 60%;
+    }
+}
+/*  */
+.p { 
+	font-size: 20px; 
+} 
+
+.container1 { 
+	background-color: rgb(192, 192, 192); 
+	width: 80%; 
+	border-radius: 15px; 
+} 
+
+.skill { 
+	/* background-color: rgb(116, 194, 92);  */
+	color: white; 
+	padding: 1%; 
+	text-align: right; 
+	font-size: 20px; 
+	border-radius: 15px; 
+} 
+
+.html { 
+	width: 80%; 
+} 
+
+.php { 
+	width: 60%; 
+}
+.iconContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.iconItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.largeIcon {
+    font-size: 5em; /* Adjust the size as needed */
+}
+
+@media screen and (max-width: 768px) {
+    .largeIcon {
+        font-size: 4em; /* Adjust the size for medium screens */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .largeIcon {
+        font-size: 3em; /* Adjust the size for small screens */
+    }
+}
+/*  */
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skillItem {
+    margin: 10px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 3em; /* Adjust the size as needed */
+}
+
+.skill {
+    margin-top: 10px;
+}
+
+.progress {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+/* Adjust this media query to fit your desired responsiveness */
+@media screen and (max-width: 600px) {
+    .skillItem {
+        width: 100%;
+    }
+
+    .icon {
+        font-size: 2em; /* Adjust the size for smaller screens */
+    }
+}

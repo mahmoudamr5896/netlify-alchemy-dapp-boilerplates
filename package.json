@@ -10,6 +10,8 @@
 		"marketplace": "npx create-web3-dapp marketplace"
 	},
 	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^6.5.2",
+		"@fortawesome/free-brands-svg-icons": "^6.5.2",
 		"@rainbow-me/rainbowkit": "^0.12.4",
 		"alchemy-sdk": "^2.6.2",
 		"next": "13.1.2",
