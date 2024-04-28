@@ -97,7 +97,7 @@ export default function InstructionsComponent() {
 						src='/images/image.png'
 						alt="Placeholder" className={styles.cardImage} />
 						<div className={styles.cardContent}>
-							<h2 className={styles.cardTitle}>E-Commece App</h2>
+							<h2 className={styles.cardTitle}>Web Application E-Commece</h2>
 							<hr style={{marginBottom:'10px', width: '50px',
 											height: '3px',
 											margin:' 8px auto',
@@ -139,7 +139,7 @@ export default function InstructionsComponent() {
 						src='/images/download.jpeg'
 						alt="Placeholder" className={styles.cardImage} />
 						<div className={styles.cardContent}>
-							<h2 className={styles.cardTitle}>Movies App</h2>
+							<h2 className={styles.cardTitle}>Web Application Movies </h2>
 							<hr style={{marginBottom:'10px', width: '50px',
 											height: '3px',
 											margin:' 8px auto',
@@ -222,7 +222,7 @@ export default function InstructionsComponent() {
 						src='/images/mashroh.jpg'
 						alt="Placeholder" className={styles.cardImage} />
 						<div className={styles.cardContent}>
-							<h2 className={styles.cardTitle}>Mshroh Courses Online</h2>
+							<h2 className={styles.cardTitle}>Web Application Mshroh Courses Online</h2>
 							<hr style={{marginBottom:'10px', width: '50px',
 											height: '3px',
 											margin:' 8px auto',
@@ -263,7 +263,7 @@ export default function InstructionsComponent() {
 						src='/images/clothing.jpg'
 						alt="Placeholder" className={styles.cardImage} />
 						<div className={styles.cardContent}>
-							<h2 className={styles.cardTitle}>Application clothing Shop clothes</h2>
+							<h2 className={styles.cardTitle}>Web Application clothing Shop clothes</h2>
 							<hr style={{marginBottom:'10px', width: '50px',
 											height: '3px',
 											margin:' 8px auto',
@@ -304,7 +304,7 @@ export default function InstructionsComponent() {
 						src='/images/image copy.png'
 						alt="Placeholder" className={styles.cardImage} />
 						<div className={styles.cardContent}>
-							<h2 className={styles.cardTitle}>E-commerce Web Application</h2>
+							<h2 className={styles.cardTitle}>Web Application E-commerce </h2>
 							<hr style={{marginBottom:'10px', width: '50px',
 											height: '3px',
 											margin:' 8px auto',
@@ -345,7 +345,7 @@ export default function InstructionsComponent() {
 						src='/images/image copy 2.png'
 						alt="Placeholder" className={styles.cardImage} />
 						<div className={styles.cardContent}>
-							<h2 className={styles.cardTitle}>App Mr./Health</h2>
+							<h2 className={styles.cardTitle}>Web Application Mr./Health</h2>
 							<hr style={{marginBottom:'10px', width: '50px',
 											height: '3px',
 											margin:' 8px auto',
@@ -383,7 +383,7 @@ export default function InstructionsComponent() {
               </div>
 			  <div className={styles.card}>
 						<img 
-						src='/images/images_q.png'
+						src='/images/bookstor.png'
 						alt="Placeholder" className={styles.cardImage} />
 						<div className={styles.cardContent}>
 							<h2 className={styles.cardTitle}>Web Application Book store</h2>
@@ -427,8 +427,8 @@ export default function InstructionsComponent() {
               </div>
 			  <div className={styles.card}>
 						<img 
-						src='/images/images_q.png'
-						alt="Placeholder" className={styles.cardImage} />
+						src='/images/images_q.png'	
+											alt="Placeholder" className={styles.cardImage} />
 						<div className={styles.cardContent}>
 							<h2 className={styles.cardTitle}>Web Application E Commerce</h2>
 							<hr style={{marginBottom:'10px', width: '50px',
