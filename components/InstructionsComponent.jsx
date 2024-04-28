@@ -78,8 +78,7 @@ export default function InstructionsComponent() {
 							  <div style={{textAlign:'center',marginTop:'20px'}}>
 					          <span className={styles.Info}>
 								<a href="https://www.linkedin.com/feed/update/urn:li:activity:7181048190861774848/" target="_blank">
-																	See Detail
-
+						        See Detail
 								</a>
 								</span>
                               <span className={styles.Info}>
@@ -382,7 +381,95 @@ export default function InstructionsComponent() {
 
 						</div>
               </div>
+			  <div className={styles.card}>
+						<img 
+						src='/images/images_q.png'
+						alt="Placeholder" className={styles.cardImage} />
+						<div className={styles.cardContent}>
+							<h2 className={styles.cardTitle}>Web Application Book store</h2>
+							<hr style={{marginBottom:'10px', width: '50px',
+											height: '3px',
+											margin:' 8px auto',
+											border: '0',
+											background:' #d0bb57'}}></hr>
+											<p className={styles.cardText}>
+												This is a simple project  created using Nodejs .
+												</p>
+							                   <p className={styles.cardTitle}>Teck Stack</p>
+							                   <hr style={{marginBottom:'10px', width: '50px',
+											height: '3px',
+											margin:' 8px auto',
+											border: '0',
+											background:' #d0bb57'}}></hr>
+							  <div>
+						      <span className={styles.tech}>Node js</span>
+                              <span className={styles.tech}>Css</span>
+                              <span className={styles.tech}>HTML</span>
+                              {/* <span className={styles.tech}>Css</span> */}
+							  <div style={{textAlign:'center',marginTop:'20px'}}>
+					          <span className={styles.Info}>
+								<a 
+								href="https://www.linkedin.com/feed/update/urn:li:activity:7181048190861774848/" target="_blank">
+																	See Detail
+
+								</a>
+								</span>
+                              <span className={styles.Info}>
+								<a href="https://github.com/mahmoudamr5896/project-book-store" target="_blank">
+									Source Code
+								</a>
+								</span>			
+							  </div>
+
+							  </div>
+
+						</div>
               </div>
+			  <div className={styles.card}>
+						<img 
+						src='/images/images_q.png'
+						alt="Placeholder" className={styles.cardImage} />
+						<div className={styles.cardContent}>
+							<h2 className={styles.cardTitle}>Web Application E Commerce</h2>
+							<hr style={{marginBottom:'10px', width: '50px',
+											height: '3px',
+											margin:' 8px auto',
+											border: '0',
+											background:' #d0bb57'}}></hr>
+											<p className={styles.cardText}>
+												This is a simple project  created using Angular  .
+												</p>
+							                   <p className={styles.cardTitle}>Teck Stack</p>
+							                   <hr style={{marginBottom:'10px', width: '50px',
+											height: '3px',
+											margin:' 8px auto',
+											border: '0',
+											background:' #d0bb57'}}></hr>
+							  <div>
+						      <span className={styles.tech}>Angular</span>
+                              <span className={styles.tech}>Json Server</span>
+                              <span className={styles.tech}>HTML</span>
+                              {/* <span className={styles.tech}>Css</span> */}
+							  <div style={{textAlign:'center',marginTop:'20px'}}>
+					          <span className={styles.Info}>
+								<a 
+								href="https://www.linkedin.com/feed/update/urn:li:activity:7181048190861774848/" target="_blank">
+																	See Detail
+
+								</a>
+								</span>
+                              <span className={styles.Info}>
+								<a href="https://github.com/mahmoudamr5896/Angulat-project-e-commerce" target="_blank">
+									Source Code
+								</a>
+								</span>			
+							  </div>
+
+							  </div>
+
+						</div>
+              </div>
+    </div>
 			  </section>
 			{/* Skills */}
 			  <section id="skills" className={styles.cardSection}>
@@ -390,112 +477,124 @@ export default function InstructionsComponent() {
 						<p className="responsive-paragraph">
 							I have extensive experience working with a variety of technologies as a developer. I've developed and maintained multiple projects using these technologies, and I'm always eager to learn more.
 						</p>
-<div className={styles.skillsContainer}>
-    				<div className={styles.skillItem}>
-        <FaHtml5 className={styles.icon} />
-        <div className={styles.skill}>
-            <h4>HTML</h4>
-            {/* <div className={styles.progress} style={{ width: '80%' }}></div> */}
-        </div>
-					</div>
-					<div className={styles.skillItem}>
-						<FaPhp className={styles.icon} />
-						<div className={styles.skill}>
-							<h4>PHP</h4>
-							{/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
-						</div>
-					</div>
-					<div className={styles.skillItem}>
-						<FaJs className={styles.icon} />
-						<div className={styles.skill}>
-							<h4>JavaScript</h4>
-							{/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
-						</div>
-					</div>
-					<div className={styles.skillItem}>
-						<FaCode className={styles.icon} />
-						<div className={styles.skill}>
-							<h4>BashScript</h4>
-							{/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
-						</div>
-					</div>
-					<div className={styles.skillItem}>
-        <SiCplusplus className={styles.icon} />
-        <div className={styles.skill}>
-            <h4>C++</h4>
-            {/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
-        </div>
-    </div>
-    <div className={styles.skillItem}>
-        <SiC className={styles.icon} />
-        <div className={styles.skill}>
-            <h4>Programming</h4>
-            {/* <div className={styles.progress} style={{ width: '80%' }}></div> */}
-        </div>
-    </div>
-    <div className={styles.skillItem}>
-        <FaJava className={styles.icon} />
-        <div className={styles.skill}>
-            <h4>Java</h4>
-            {/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
-        </div>
-    </div>
-    {/* <div className={styles.skillItem}>
-        <FaCSharp className={styles.icon} />
-        <div className={styles.skill}>
-            <p>C#</p>
-            <div className={styles.progress} style={{ width: '60%' }}></div>
-        </div>
-    </div> */}
+						<div className={styles.iconContainer}>
+							<div className={styles.skillItem}>
+				<FaHtml5 className={styles.icon} />
+				<div className={styles.skill}>
+					<h4>HTML</h4>
+					{/* <div className={styles.progress} style={{ width: '80%' }}></div> */}
 				</div>
+							</div>
+							<div className={styles.skillItem}>
+								<FaPhp className={styles.icon} />
+								<div className={styles.skill}>
+									<h4>PHP</h4>
+									{/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
+								</div>
+							</div>
+							<div className={styles.skillItem}>
+								<FaJs className={styles.icon} />
+								<div className={styles.skill}>
+									<h4>JavaScript</h4>
+									{/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
+								</div>
+							</div>
+							<div className={styles.skillItem}>
+								<FaCode className={styles.icon} />
+								<div className={styles.skill}>
+									<h4>BashScript</h4>
+									{/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
+								</div>
+							</div>
+							<div className={styles.skillItem}>
+				<SiCplusplus className={styles.icon} />
+				<div className={styles.skill}>
+					<h4>C++</h4>
+					{/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
+				</div>
+			</div>
+			<div className={styles.skillItem}>
+				<SiC className={styles.icon} />
+				<div className={styles.skill}>
+					<h4>Programming</h4>
+					{/* <div className={styles.progress} style={{ width: '80%' }}></div> */}
+				</div>
+			</div>
+			<div className={styles.skillItem}>
+				<FaJava className={styles.icon} />
+				<div className={styles.skill}>
+					<h4>Java</h4>
+					{/* <div className={styles.progress} style={{ width: '60%' }}></div> */}
+				</div>
+			</div>
+			{/* <div className={styles.skillItem}>
+				<FaCSharp className={styles.icon} />
+				<div className={styles.skill}>
+					<p>C#</p>
+					<div className={styles.progress} style={{ width: '60%' }}></div>
+				</div>
+			</div> */}
+						</div>
+						<div className={styles.iconContainer}>
+			<div className={styles.iconItem}>
+				<FaReact className={styles.largeIcon} />
+				<span>React</span>
+				{/* <p>React Devoloper</p> */}
+			</div>
+			<div className={styles.iconItem}>
+				<SiDjango className={styles.largeIcon} />
+				<span>Django</span>
+				{/* <p>React Devoloper</p> */}
 
-			
-<div className={styles.iconContainer}>
-    <div className={styles.iconItem}>
-        <FaReact className={styles.largeIcon} />
-        <span>React</span>
-		<p>React Devoloper</p>
-    </div>
-    <div className={styles.iconItem}>
-        <SiDjango className={styles.largeIcon} />
-        <span>Django</span>
-		<p>React Devoloper</p>
+			</div>
+			<div className={styles.iconItem}>
+				<FaPython className={styles.largeIcon} />
+				<span>Python</span>
+				{/* <p>React Devoloper</p> */}
 
-    </div>
-    <div className={styles.iconItem}>
-        <FaPython className={styles.largeIcon} />
-        <span>Python</span>
-		<p>React Devoloper</p>
+			</div>
+			<div className={styles.iconItem}>
+				<SiPostgresql className={styles.largeIcon} />
+				<span>PostgreSQL</span>
+				{/* <p>React Devoloper</p> */}
 
-    </div>
-    <div className={styles.iconItem}>
-        <SiPostgresql className={styles.largeIcon} />
-        <span>PostgreSQL</span>
-		<p>React Devoloper</p>
+			</div>
+		
+			<div className={styles.iconItem}>
+				<FaWordpress className={styles.largeIcon} />
+				<span>WordPress</span>
+				{/* <p>React Devoloper</p> */}
 
-    </div>
- 
-    <div className={styles.iconItem}>
-        <FaWordpress className={styles.largeIcon} />
-        <span>WordPress</span>
-		<p>React Devoloper</p>
+			</div>
 
-    </div>
+			<div className={styles.iconItem}>
+				<FaDocker className={styles.largeIcon} />
+				<span>Docker</span>
+				{/* <p>React Devoloper</p> */}
 
-    <div className={styles.iconItem}>
-        <FaDocker className={styles.largeIcon} />
-        <span>Docker</span>
-		<p>React Devoloper</p>
+			</div>
+			<div className={styles.iconItem}>
+				<SiAngular className={styles.largeIcon} />
+				<span>Angular</span>
+				{/* <p>React Devoloper</p> */}
 
-    </div>
-    <div className={styles.iconItem}>
-        <SiAngular className={styles.largeIcon} />
-        <span>Angular</span>
-		<p>React Devoloper</p>
+			</div>
 
-    </div>
+						</div> 
+              </section>
 
-</div> 
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+			<div className={styles.footer}>
+				<a href="/">Mahmoud Amr Hassan</a>
+			</div>
+		</div>
+	);
+}
    {/* <div className={styles.iconItem}>
         <DiNextjs className={styles.largeIcon} />
         <span>Next.js</span>
@@ -524,23 +623,6 @@ export default function InstructionsComponent() {
 	<FontAwesomeIcon icon={faPython} className={styles.icon} />
 	<div className={styles.skill} style={{ width: '70%' }}>70%</div>
 </div> */}
-
-              </section>
-
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-
-			<div className={styles.footer}>
-
-				<a href="/">Mahmoud Amr Hassan</a>
-			</div>
-		</div>
-	);
-}
 
 
 
