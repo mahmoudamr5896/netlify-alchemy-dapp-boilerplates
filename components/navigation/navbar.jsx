@@ -1,20 +1,21 @@
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai';
 import styles from "../../styles/Navbar.module.css";
-
+import Link from 'next/link';
 export default function Navbar() {
     return (
         <nav className={styles.navbar}>
-            <a href="/" >
+            <Link href="/" >
 				Mahmoud Amr
-                {/* <img src="/cw3d-logo.png" alt="CW3D Logo" className={styles.alchemy_logo} /> */}
-            </a>
+                <img src="./images/img.jpeg" alt="..." className={styles.alchemy_logo} />
+                
+            </Link>
             <div className={styles.links}>
-                <a href="/" className={styles.navLink}>
+                <Link href="/" className={styles.navLink}>
                     Home
-                </a>
-                <a href="/" className={styles.navLink}>
+                </Link>
+                <Link href="/about" className={styles.navLink}>
                     About Me
-                </a>
+                </Link>
             </div>
             <div className={styles.socialIcons}>
                 <a href="https://github.com/mahmoudamr5896" target="_blank" className={styles.iconLink}><AiFillGithub /></a>

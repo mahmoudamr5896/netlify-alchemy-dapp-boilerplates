@@ -9,6 +9,8 @@
 .alchemy_logo {
     width: 6rem;
     cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
 }
 
 .navLink {
